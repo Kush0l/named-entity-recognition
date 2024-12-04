@@ -2,6 +2,12 @@
 
 ## Instructions to run the project
 
+### install required modules/packages
+
+```bash
+pip install -r requirements.txt
+```
+
 ### 1. make sure you are in **named-entity-recognition** directory 
 
 
