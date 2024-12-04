@@ -1,0 +1,6 @@
+streamlit==1.25.0  # Adjust version based on your installed version
+transformers==4.33.0  # Latest stable version as of now
+accelerate==0.23.0  # Latest stable version as of now
+datasets==2.16.0  # Latest stable version as of now
+httpx==0.25.0  # Adjust version based on your installed version
+pandas==2.1.1  # Adjust version based on your installed version
