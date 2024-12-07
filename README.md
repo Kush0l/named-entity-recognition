@@ -33,4 +33,6 @@ cd named-entity-recognition
 
 ### 2. run **training.ipnb** to train the model
 
+Download the model from here : https://drive.google.com/drive/folders/13k1pLesG-JNUvTD0yOyCJhLlV2Cf6vkY?usp=sharing
+
 

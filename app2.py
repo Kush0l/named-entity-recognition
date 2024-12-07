@@ -1,6 +1,5 @@
 import streamlit as st
 
-
 from transformers import pipeline
 
 checkpoint = "distilbert-finetuned-ner/checkpoint-5268"
@@ -9,8 +8,7 @@ token_classifier = pipeline(
   )
 
 st.write("enter the sentence")
-x=st.text_input("enter the sentence")
-st.write(f"entered sentence :{x}")
+x=st.text_area("enter the sentence")
 is_clicked=st.button("submit")
 
 if(is_clicked):

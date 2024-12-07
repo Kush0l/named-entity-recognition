@@ -106,11 +106,31 @@ def highlight_entities(text, entities):
 # Function to generate a table of entities and their types
 def generate_entity_table(entities):
     """
-    Generates a table of entities and their types.
+    Combines subword tokens into full words for entities and generates a table.
     """
-    data = [{"Entity": entity["word"], "Entity Type": entity["entity_group"]} for entity in entities]
-    df = pd.DataFrame(data)
-    return df
+    combined_entities = []
+    current_word = ""
+    current_label = None
+
+    for entity in entities:
+        word = entity["word"]
+        label = entity["entity_group"]
+
+        # Handle subword tokens
+        if word.startswith("##"):
+            current_word += word[2:]  # Remove the "##" prefix and append
+        else:
+            if current_word:  # If there's an existing word, save it
+                combined_entities.append({"Entity": current_word, "Entity Type": current_label})
+            current_word = word  # Start a new word
+            current_label = label
+
+    # Add the last entity after the loop
+    if current_word:
+        combined_entities.append({"Entity": current_word, "Entity Type": current_label})
+
+    return pd.DataFrame(combined_entities)
+
 
 # Handle Reddit post search and NER processing
 if st.button("Fetch and Analyze Reddit Posts"):
