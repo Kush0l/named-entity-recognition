@@ -36,3 +36,6 @@ cd named-entity-recognition
 Download the model from here : https://drive.google.com/drive/folders/13k1pLesG-JNUvTD0yOyCJhLlV2Cf6vkY?usp=sharing
 
 
+
+
+Elon Reeve Musk FRS is a businessman known for his key roles in the space company SpaceX and the automotive company Tesla, Inc. His other involvements include ownership of X Corp., the company that operates the social media platform X, and his role in the founding of the Boring Company, xAI, Neuralink, and OpenAI.
