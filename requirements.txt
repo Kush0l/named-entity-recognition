@@ -1,8 +1,8 @@
-streamlit==1.26.0  # Latest stable version for Streamlit
-transformers==4.38.0  # Latest stable version for Transformers
-accelerate==0.26.0  # Latest stable version for Accelerate
+streamlit # Latest stable version for Streamlit
+transformers  # Latest stable version for Transformers
+accelerate  # Latest stable version for Accelerate
 datasets  # Latest stable version for Datasets
-httpx==0.27.0  # Latest stable version for HTTPX
-pandas==2.2.0  # Latest stable version for Pandas
-plotly==5.20.0  # Latest stable version for Plotly
-streamlit-lottie==0.0.4  # Latest stable version for Streamlit-Lottie
+httpx  # Latest stable version for HTTPX
+pandas  # Latest stable version for Pandas
+plotly  # Latest stable version for Plotly
+streamlit-lottie  # Latest stable version for Streamlit-Lottie
