@@ -42,8 +42,6 @@ streamlit run app.py
 
 
 
-
-
 Example text to test:
 
 Elon Reeve Musk FRS is a businessman known for his key roles in the space company SpaceX and the automotive company Tesla, Inc. His other involvements include ownership of X Corp., the company that operates the social media platform X, and his role in the founding of the Boring Company, xAI, Neuralink, and OpenAI.
